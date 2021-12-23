@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* Addtask */
+.addtask .card {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  background-color: black;
+}
+.addtask button {
+  margin-left: 150px;
+}
+/* ListTask */
+
+.list .tasklist {
+  margin-top: 100px;
+  height: 100%;
+  background-color: white;
+  margin-left: 100px;
+  margin-top: 50px;
+  box-shadow: 6px 5px 50px black;
+}
+.list i {
+  float: right;
+  margin-left: 10px;
+  margin-top: 35px;
+}
+.card-header i{
+  float: left;
+  margin-top: 10px;
+  font-weight:700px;
+}
+.list .searchtask {
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  background-color: white;
+  box-shadow: 2px 2px 50px black;
+}
+.list .done {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.list .filter {
+  height: 80%;
+}
+
+.tasklist .card {
+  width: 380px;
+  height: 80px;
+}
+
+/* Navbar */
+
+.navigation .done {
+  margin-right: 10px;
+}
+.navbar {
+  background-color: #e5e5e5;
+}
+.navbar-brand {
+  font-size: 25px !important;
+}
+.navigation .btn {
+  margin-left: 10px;
+  height: 25px;
+  width: 80px;
+  font-size: 12px;
+  padding: 5px;
+}
+/* Edit Task */
+.edit {
+  border: 1px solid black;
+}
+.edit input {
+  width: 60%;
+}
+.edit button {
+  margin-left: 25px;
+
+  height: 40px;
+}
