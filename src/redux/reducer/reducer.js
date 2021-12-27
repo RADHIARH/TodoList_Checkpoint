@@ -5,7 +5,6 @@ const reducer = ( state =initialState,action
 ) => {
   const desc = action.data;
   const idd = action.val;
-  const done = action.payload;
   const id = action.id;
   const id1 = action.val1;
   const desc1 = action.val3;
@@ -33,7 +32,7 @@ const reducer = ( state =initialState,action
     case "done":
       const index = state.tasks.findIndex((element) => element.id === idd);
       const newTasks = [...state.tasks];
-      newTasks[index].isDone = true;
+      newTasks[index].isDone = !newTasks[index].isDone;
       return {
         ...state,
         tasks: newTasks,

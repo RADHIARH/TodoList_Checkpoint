@@ -11,6 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.tasklist .card:hover,.tasklist i:hover{
+transform: scale(1.1);
+}
+
+
 /* Addtask */
 .addtask .card {
   width: 40%;
@@ -24,14 +30,6 @@ code {
 }
 /* ListTask */
 
-.list .tasklist {
-  margin-top: 100px;
-  height: 100%;
-  background-color: white;
-  margin-left: 100px;
-  margin-top: 50px;
-  box-shadow: 6px 5px 50px black;
-}
 .list i {
   float: right;
   margin-left: 10px;
@@ -49,6 +47,11 @@ code {
   padding-top: 30px;
   background-color: white;
   box-shadow: 2px 2px 50px black;
+  
+}
+ .searchtask .card{
+   transform: scale(1.1);
+ 
 }
 .list .done {
   margin-left: 20px;
@@ -59,8 +62,8 @@ code {
 }
 
 .tasklist .card {
-  width: 380px;
-  height: 80px;
+  width: 420px;
+  
 }
 
 /* Navbar */
@@ -84,6 +87,7 @@ code {
 /* Edit Task */
 .edit {
   border: 1px solid black;
+  margin-top:160px
 }
 .edit input {
   width: 60%;
